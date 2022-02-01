@@ -147,7 +147,8 @@ public class BasePage {
 			
 			Boolean isSelect = false;
 			
-			
+			searchRestaurant("Drottinggatan stockholm", "Utkörning");
+			driver.findElement(By.xpath("//div//div[3]//div[1]//figure[1]//a[1]//div[1]")).click();
 			
 			return isSelect;
 		}

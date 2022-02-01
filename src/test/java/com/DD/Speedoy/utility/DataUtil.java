@@ -42,7 +42,7 @@ public class DataUtil {
 					
 					Cell cell1 = sh.getRow(i).getCell(j);
 					
-					switch (sh.getRow(i).getCell(j).getCellType().name()) {
+					switch(sh.getRow(i).getCell(j).getCellType().name()) {
 	                
 	                case "STRING":
 	                	data[i-1][j] = cell1.getRichStringCellValue().getString();

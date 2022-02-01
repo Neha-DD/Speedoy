@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.DD.Speedoy.Test.SignUpTest">
+      <class name="com.DD.Speedoy.Test.LoginTest">
         <methods>
           <include name="launchbrowser"/>
           <include name="Exitbrowser"/>
-          <include name="VerifySignUp" invocation-numbers="0"/>
+          <include name="Verify_ValidEmail_ValidPassword"/>
         </methods>
-      </class> <!-- com.DD.Speedoy.Test.SignUpTest -->
+      </class> <!-- com.DD.Speedoy.Test.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

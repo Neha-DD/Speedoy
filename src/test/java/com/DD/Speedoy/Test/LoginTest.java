@@ -1,5 +1,5 @@
 package com.DD.Speedoy.Test;
-import org.openqa.selenium.By;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
